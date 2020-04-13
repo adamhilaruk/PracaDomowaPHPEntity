@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+create_product:
+  path:       /product/{name}
+  controller: App\Controller\ProductController::createProduct
+  defaults:
+    name: "obraz"
